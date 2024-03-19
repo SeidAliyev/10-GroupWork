@@ -1,4 +1,146 @@
 *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #3498db;
+}
+.containertext{
+   text-align: center;
+   padding: 40px;
+   font-weight: bold;
+   color: white;
+}
+.textheader{
+   
+    margin: 10px;
+}
+.itembox{
+    padding: 20px;
+    width: 318px;
+    margin: 60px;
+   border-radius: 3px;
+   color: white;
+   background-color: rgba(0, 0, 0, 0.699);
+}
+.itemh2{
+    color: #34495e;
+}
+.itemh4{
+    font-size: 22px;
+    font-weight: bold;
+    color: #0072EF;
+}
+.fa-solid{
+    color: #0072EF;
+}
+.item{
+  padding: 10px;
+  text-align: center;
+}
+ul{
+    list-style: none;
+    
+    margin: 20px;
+}
+.itembuttonbox{
+text-align: center;
+}
+.itemlist{
+    margin: 9px;
+}
+.itembutton{
+    width: 120px;
+    height: 45px;
+    border: none;
+    background-color: #0072EF;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.itembox3{
+    padding: 20px;
+    border: 3px solid black;
+    width: 318px;
+    margin: 20px;
+   border-radius: 3px;
+   color: white;
+   background-color: black;
+}
+.itembox4{
+ display: none;
+}
+.itembox2{
+    padding: 10px;
+    border: none;
+    width: 318px;
+    margin: 40px;
+   border-radius: 3px;
+   background-color:#ecf0f1;
+   font-weight: bold;
+}
+.itemlist2{
+    color: #2c3e50;
+    margin: 9px;
+    
+}
+.itembox5{
+    display: none;
+}
+@media only screen and (max-width: 992px) {
+    .itembox3{
+        display: none;
+    }
+    .itembox5{
+        display: none;
+    }
+    .itembox4{
+        padding: 20px;
+        border: 3px solid black;
+        width: 318px;
+        margin: 20px;
+       border-radius: 3px;
+       color: white;
+       background-color: black;
+       display: block;
+    }
+}
+@media only screen and (max-width: 768px) {
+    
+    .itembox3{
+        display: none;
+    }
+    .itembox2{
+        display: none;
+    }
+    .itembox4{
+        padding: 20px;
+        border: 3px solid black;
+        width: 318px;
+        margin: 20px;
+       border-radius: 3px;
+       color: white;
+       background-color: black;
+       display: block;
+    }
+    .itembox5{
+        padding: 10px;
+        border: none;
+        width: 318px;
+        margin: 40px;
+       border-radius: 3px;
+       background-color:#ecf0f1;
+       font-weight: bold;
+       display: block;
+    }
+}
+
+*{
     border: 0;
     padding: 0;
     box-sizing: border-box;

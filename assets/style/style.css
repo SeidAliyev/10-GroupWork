@@ -3,8 +3,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.container{
+.containerG{
     background-color: #3498db;
+    max-width: 1400px;
+    margin: auto;
 }
 .containertext{
    text-align: center;
@@ -13,10 +15,10 @@
    color: white;
 }
 .textheader{
-   
+   max-width: 1400px;
     margin: 10px;
 }
-.itembox{
+.itemboxS{
     padding: 20px;
     width: 318px;
     margin: 60px;
@@ -266,10 +268,10 @@ text-align: center;
     box-sizing: border-box;
 }
 
-section{
+/* section{
     height: 100vh;
     background-color: black;
-}
+} */
 
 
 /* p{
@@ -278,7 +280,7 @@ section{
     color: wheat;
 } */
 
-.container{
+.containerI{
     gap: 10px;
     display: grid;
     justify-items: center;
@@ -291,7 +293,7 @@ section{
     background-color: black;
 }
 
-.item{
+.itemone{
     max-width: 366.66px;
     max-height: 222px;
     background-color: rgb(37, 37, 37);
@@ -431,7 +433,7 @@ margin-top: 5px;
 }
 
 @media screen and (max-width: 992px) {
-    .container{
+    .containerI{
         display: grid;
         justify-items: center;
         align-content: space-around;
@@ -445,7 +447,7 @@ margin-top: 5px;
   
 
   @media screen and (max-width: 768px) {
-    .container{
+    .containerI{
         display: grid;
         justify-items: center;
         align-content: space-around;

@@ -231,8 +231,6 @@ text-align: center;
 }
 
 @media screen and (max-width: 992px) {
-    body {
-    }
 
     .gridcontainer{
         display: grid;
@@ -245,8 +243,6 @@ text-align: center;
 
 
 @media screen and (max-width: 768px) {
-    body {
-    }
     .Main{
         background-image: url("./../images/e6157d-15-041-3b75-0dc8deb2ea41_yt-bg.webp");
         background-repeat: no-repeat;
